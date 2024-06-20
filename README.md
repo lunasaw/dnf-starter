@@ -1,11 +1,11 @@
-# project-starter
+# dnf-starter
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.lunasaw/project-starter)](https://mvnrepository.com/artifact/io.github.lunasaw/project-starter)
-[![GitHub license](https://img.shields.io/badge/MIT_License-blue.svg)](https://raw.githubusercontent.com/lunasaw/project-starter/master/LICENSE)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.lunasaw/dnf-starter)](https://mvnrepository.com/artifact/io.github.lunasaw/dnf-starter)
+[![GitHub license](https://img.shields.io/badge/MIT_License-blue.svg)](https://raw.githubusercontent.com/lunasaw/dnf-starter/master/LICENSE)
 
 [www.isluna.ml](http://lunasaw.github.io)
 
-project-starter
+dnf-starter
 
 
 
@@ -15,7 +15,7 @@ project-starter
 
 <dependency>
     <groupId>io.github.lunasaw</groupId>
-    <artifactId>project-starter</artifactId>
+    <artifactId>dnf-starter</artifactId>
     <version>${last.version}</version>
 </dependency>
 ```

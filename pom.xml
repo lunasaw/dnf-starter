@@ -5,23 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.lunasaw</groupId>
-    <artifactId>project-starter</artifactId>
+    <artifactId>dnf-starter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>project-starter</name>
+    <name>dnf-starter</name>
     <description>ZLMediaKit restful api and hook starter</description>
-    <url>https://github.com/lunasaw/project-starter</url>
+    <url>https://github.com/lunasaw/dnf-starter</url>
 
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <spring-boot.version>2.7.18</spring-boot.version>
-        <luna-common.version>2.5.2</luna-common.version>
+        <luna-common.version>2.6.1</luna-common.version>
         <httpclient5.version>5.2.1</httpclient5.version>
         <github.username>lunasaw</github.username>
         <app.profiles>${project.name}</app.profiles>
-        <project-starter.version>1.0.0</project-starter.version>
+        <dnf-starter.version>1.0.0</dnf-starter.version>
     </properties>
 
     <developers>
@@ -38,9 +38,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/lunasaw/project-starter</url>
-        <connection>https://github.com/lunasaw/project-starter</connection>
-        <developerConnection>https://github.com/lunasaw/project-starter.git</developerConnection>
+        <url>https://github.com/lunasaw/dnf-starter</url>
+        <connection>https://github.com/lunasaw/dnf-starter</connection>
+        <developerConnection>https://github.com/lunasaw/dnf-starter.git</developerConnection>
     </scm>
 
     <dependencyManagement>
@@ -96,12 +96,12 @@
                 <repository>
                     <id>github_auth</id>
                     <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/lunasaw/project-starter</url>
+                    <url>https://maven.pkg.github.com/lunasaw/dnf-starter</url>
                 </repository>
                 <snapshotRepository>
                     <id>github_auth</id>
                     <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/lunasaw/project-starter</url>
+                    <url>https://maven.pkg.github.com/lunasaw/dnf-starter</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -109,7 +109,7 @@
                     <!-- id需要与上面的server对应的id匹配 -->
                     <id>github_auth</id>
                     <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/lunasaw/project-starter</url>
+                    <url>https://maven.pkg.github.com/lunasaw/dnf-starter</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>

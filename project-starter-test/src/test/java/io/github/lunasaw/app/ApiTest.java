@@ -1,4 +1,4 @@
-package io.github.lunasaw.app;
+package io.github.lunasaw.dnf;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
