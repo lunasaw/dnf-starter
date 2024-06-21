@@ -1,6 +1,8 @@
 spring:
   profiles:
     active: dev
+  application:
+    name: dnf-starter
 
 logging:
   config: classpath:log/logback-spring.xml
